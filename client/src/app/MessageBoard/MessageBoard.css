@@ -1,0 +1,56 @@
+.messageboard {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.message-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-style: solid;
+    border-width: 0 0 5px 0;
+    border-color: white;
+    font-size: 26px;
+}
+
+.message-footer {
+    margin-top: auto;
+    margin-bottom: 0;
+    padding: 10px;
+    border-style: solid;
+    border-width: 5px 0 0 0;
+    border-color: white;
+}
+
+.message-body {
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.message {
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.message-bubble {
+    border-radius: 990em;
+    padding: 5px 10px;
+    background-color: white;
+    color: #282c34;
+    width: fit-content;
+    font-size: 20px;
+}
+
+.message-button {
+    cursor: pointer;
+    background-color: white;
+    color: #282c34;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 10px;
+    width: fit-content;
+    margin-bottom: 10px;
+}

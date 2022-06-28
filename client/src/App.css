@@ -1,0 +1,45 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  background-color: #282c34;
+  height: 100vh;
+  color: white;
+}
+
+.side-panel-container {
+  width: 20%;
+  border-style: solid;
+  border-width: 0 3px 0 0;
+  border-color: white;
+  background-color:#282c34 ;
+  color: white;
+}
+
+.message-board-container {
+  width: 80%;
+  background-color: #282c34;
+  color: white;
+}
+
+.log-in {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  align-self: center;
+  font-size: 26px;
+}
+
+.log-in-button {
+  cursor: pointer;
+  background-color: white;
+  color: #282c34;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 10px;
+  width: fit-content;
+}

@@ -1,0 +1,38 @@
+.side-panel {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-size: 26px;
+}
+
+.chatroom-display {
+    height: auto;
+}
+
+.side-panel-footer {
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: auto;
+    margin-bottom: 0px;
+    border-style: solid;
+    border-width: 5px 0 0 0;
+    border-color: white;
+}
+
+.side-panel-listing {
+    font-size: 20px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.new-chatroom-button {
+    cursor: pointer;
+    background-color: white;
+    color: #282c34;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 10px;
+}
